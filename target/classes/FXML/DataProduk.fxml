@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="581.0" prefWidth="600.0" style="-fx-background-color: #ffe4e1;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DataProdukController">
+   <children>
+      <Label layoutX="33.0" layoutY="31.0" prefHeight="17.0" prefWidth="424.0" text="Data Produk">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCariProduk" layoutX="33.0" layoutY="57.0" prefHeight="25.0" prefWidth="503.0" />
+      <ComboBox fx:id="cmdKategori" layoutX="33.0" layoutY="89.0" prefHeight="25.0" prefWidth="503.0" />
+      <Button fx:id="btnCari" layoutX="49.0" layoutY="122.0" mnemonicParsing="false" text="Cari" />
+      <Button fx:id="btnTambah" layoutX="127.0" layoutY="122.0" mnemonicParsing="false" text="Tambah" />
+      <Button fx:id="btnLihatDetail" layoutX="204.0" layoutY="122.0" mnemonicParsing="false" text="Lihat Detail" />
+      <Button fx:id="btnReset" layoutX="75.0" layoutY="159.0" mnemonicParsing="false" text="Reset" />
+      <Button fx:id="btnHapus" layoutX="167.0" layoutY="159.0" mnemonicParsing="false" text="Hapus" />
+      <CheckBox fx:id="chxTotal" layoutX="408.0" layoutY="197.0" mnemonicParsing="false" text="Total" />
+      <CheckBox fx:id="chxJumlah" layoutX="471.0" layoutY="197.0" mnemonicParsing="false" text="Jumlah" />
+      <TableView fx:id="tbProduk" layoutX="33.0" layoutY="220.0" prefHeight="200.0" prefWidth="503.0" stylesheets="@../Css/Style.css">
+        <columns>
+          <TableColumn fx:id="thKode" prefWidth="75.0" text="Kode" />
+          <TableColumn fx:id="thNama" prefWidth="148.66661834716797" text="Nama" />
+            <TableColumn fx:id="thLategori" prefWidth="133.3333740234375" text="Kategori" />
+            <TableColumn fx:id="thHarga" prefWidth="145.33346557617188" text="Harga" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

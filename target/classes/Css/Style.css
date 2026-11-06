@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Nov 2026, 21.20.58
+    Author     : Hanif Aidil Rachman
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Nov 2026, 18.20.22
+    Author     : Hanif Aidil Rachman
+*/
+
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-background-color:  #ffe4e1;
+}
+
+.arcon{
+    -fx-background-color:  #ffe4e1; 
+}

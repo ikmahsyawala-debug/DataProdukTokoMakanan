@@ -1,0 +1,9 @@
+Controller\DaftarController.class
+com\mycompany\ikmahtest\Main.class
+Controller\DataProdukController.class
+Data\Kategori.class
+Data\KategoriMinuman.class
+Data\KategoriMakanan.class
+Model\Data.class
+Controller\DetailProdukController.class
+Data\Tambah.class
